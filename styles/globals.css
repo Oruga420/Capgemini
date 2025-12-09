@@ -236,16 +236,35 @@ main {
 }
 
 @media print {
+  * {
+    font-family: Arial, Helvetica, sans-serif !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
   body, main {
     background: #fff;
+    color: #111;
   }
   .card {
     box-shadow: none;
+    border: 1px solid #ccc;
   }
   .pdf-button {
     display: none;
   }
   .blob-canvas {
     display: none;
+  }
+  .pill {
+    border: 1px solid #999;
+    box-shadow: none;
+  }
+  .summary-box,
+  .contact,
+  .experience-card,
+  .edu-card {
+    background: #fff !important;
+    border: 1px solid #ccc;
+    box-shadow: none;
   }
 }
