@@ -1,0 +1,1 @@
+uses agents.md for instructions use Capgemini_Resume for the resume
